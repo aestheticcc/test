@@ -2,7 +2,8 @@ body{
 text-align: center;
 }
 ul{
-    margin: 20px 0px;
+
+    margin: 20px 30%;
     padding:0;
     background-color: gray;
 }
