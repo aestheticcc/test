@@ -1,0 +1,17 @@
+body{
+text-align: center;
+}
+ul{
+    margin: 20px 0px;
+    padding:0;
+    background-color: gray;
+}
+li{
+    list-style: none;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+li p {
+    display: inline;
+    padding:10px;
+}
