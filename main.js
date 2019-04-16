@@ -2,9 +2,6 @@
 /* eslint-disable no-console */
 let listObject = {
     test:false,
-    test2:false,
-    test3:false,
-    test4:false,
 }
 let listElem = document.getElementById("list");
 let addButton = document.getElementById("addButton");
@@ -28,6 +25,8 @@ function createItemElement(itemName){
     let mainElem = document.createElement("li");
     let textElem = document.createElement("p");
     let delButton = document.createElement("button");
+    let checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
     delButton.innerHTML = "Delete";
     delButton.addEventListener("click", function(){removeItem(itemName);
     }, false);
